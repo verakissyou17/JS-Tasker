@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>JS Tasker</title>
+
+</head>
+<body>
+  <div class="header-logo">
+    <h1>JS Tasker</h1>
+</div>
+<div class="container">
+    <form class="input-group">
+        <!--<span class="add-new-task">Add New Task</span>-->
+       <label for="newTask" class="add-new-task">Add New Task</label>
+        <input 
+            id="newTask"
+            type="text"
+            class="form-control"
+            placeholder="Describe your task"
+
+        />
+    <button class="btn-submit" id="btnSubmit">Submit</button>
+
+    <p id="message"></p>
+    <div class="list-group-item" id="tasks"></div>
+    <button class="btn-clear" id="btnClear">
+        Clear List
+    </button> 
+    </form>   
+</div>
+<script src="index.js"></script>
+</body>
+</html>
